@@ -86,11 +86,52 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-   .content-wrapper {
-     width: 90%;
-     margin: 50px 0;
-   }
+  /* General Styles */
+ 
+html {
+  font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+ 
+ul, 
+ol { 
+  list-style: none;
+}
+ 
+a {
+	color: #e2e3ed;
+  text-decoration: none;
+}
+ 
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+	font-size: 1.875em;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+}
+ 
+p {
+  line-height: 1.285em;
+  font-size: .875em;
+}
+ 
+address {
+  font-style: normal;  
+}
+ 
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0; 
+}
 
    /****** base header-footer styles *****/
 
@@ -102,7 +143,7 @@ textarea {
      flex-flow: row wrap;
    }
    header {
-     padding: 15px 0;
+     padding: 30px 0;
    }
 
    header .content-wrapper {
@@ -128,7 +169,6 @@ textarea {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    list-style: none;
    }
    footer {
      flex-direction: column;
@@ -171,11 +211,11 @@ textarea {
    /***** Aside *****/
 
    aside {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-flow: row wrap;
-   }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
    /***** Features *****/
 
@@ -192,10 +232,10 @@ textarea {
      margin: 30px 0;
    }
    .features .features-items {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
    .features p {
      margin: 0;
@@ -203,9 +243,9 @@ textarea {
    /***** Reviews *****/
 
    .reviews {
-   display: flex;
-   justify-content: center;
-   flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
    }
    .reviews h2 {
      margin-bottom: 40px;
@@ -514,6 +554,10 @@ aside .content-wrapper .form {
 /* Reviews */
 .reviews article div {
   width: 42%;
+}
+footer .copyright {
+  display: flex;
+  justify-content: center;
 }
 }
   
