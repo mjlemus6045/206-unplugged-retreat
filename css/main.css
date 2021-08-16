@@ -218,7 +218,11 @@ address {
    .hero-area {
      display: flex;
      justify-content: center;
-     flex-flow: row wrap;
+     flex-flow: row wrap; 
+     background-image: url('../img/jake-melara-30679-unsplash.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
    }
    .hero-area h1 {
      font-size: 2.25em;
@@ -266,6 +270,10 @@ address {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background-image: url('../img/rawpixel-800820-unsplash2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
    }
    .features h2 {
      margin-bottom: 60px;
@@ -278,7 +286,7 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
    }
    .features p {
      text-align: center;
@@ -457,15 +465,12 @@ address {
   }
   
   header {
-    justify-content: space-around;
+    justify-content:space-around;
     padding: 33px 0;
   }
   header .content-wrapper {
     width: 100%;
     justify-content:space-between;
-  }
-  header figure {
-    width: 30%;
   }
   header nav {
     width: 20%;
@@ -606,8 +611,8 @@ address {
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
   
-  header {
-    padding: 15px 0;
+header {
+  padding: 15px 0;
   }
 .content-wrapper {
   max-width: 960px;
@@ -615,12 +620,12 @@ address {
 h2 {
   font-size: 2.25em;
   }
-  h3, h4 {
-    font-size: 1.875em;
+h3, h4 {
+  font-size: 1.875em;
   }
-  p {
-    font-size: 1.125em;
-    line-height: 1.333;
+p {
+  font-size: 1.125em;
+  line-height: 1.333;
   }
 
 
@@ -651,7 +656,9 @@ aside .content-wrapper .form {
 }
 
 /* Reviews */
-
+.reviews article img {
+  width: 55%;
+}
 .reviews h2 {
   padding-bottom: 50px;
 }
@@ -667,8 +674,8 @@ footer h4 {
     About Page
   ===================================================================== */ 
   
-  .mission h1,
-  .contact-section .content-wrapper h1 {
+  .mission h2,
+  .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
   }
@@ -681,11 +688,11 @@ footer h4 {
   ===================================================================== */
 
   
-  .faq h1 {
+  .faq h2 {
     width: 100%;
     font-size: 3em;
   }
-  .faq h3,
+  .faq h4,
   .faq p {
     font-size: 1.125em;
     line-height: 1;
