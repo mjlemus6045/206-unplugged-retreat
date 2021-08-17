@@ -98,6 +98,12 @@ body {
   text-align: left;
 	color: #e2e3ed;
 }
+img {
+  width: 100%;
+}
+figure {
+  margin: 0;
+}
  
 ul, 
 ol { 
@@ -149,6 +155,13 @@ address {
    }
    header {
      padding: 15px 0;
+   }
+   header figure {
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
    }
 
    header .content-wrapper {
@@ -468,6 +481,13 @@ address {
     justify-content:space-around;
     padding: 33px 0;
   }
+  header figure {
+    width: 31%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+  }
   header .content-wrapper {
     width: 100%;
     justify-content:space-between;
@@ -477,6 +497,9 @@ address {
   }
   header nav ul {
     justify-content: space-between;
+  }
+  header nav ul li {
+    padding-right: 20px;
   }
   .header-divider {
     display: none;
@@ -523,6 +546,13 @@ address {
     display: flex;
     justify-content: space-between;
   }
+  .reviews figure {
+    width: 41%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
   .reviews h2 {
     width: 85%;
   }
@@ -552,6 +582,9 @@ address {
   footer h4 {
     font-size: 1.5em;
     margin-bottom: 40px;
+  }
+  .social-icons p {
+    padding-right: 20px;
   }
   footer p {
     line-height: 1.285;
@@ -614,6 +647,13 @@ address {
 header {
   padding: 15px 0;
   }
+  header figure {
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 .content-wrapper {
   max-width: 960px;
 }
@@ -656,9 +696,15 @@ aside .content-wrapper .form {
 }
 
 /* Reviews */
-.reviews article img {
-  width: 55%;
-}
+
+  .reviews figure {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-flow: row wrap;
+  }
 .reviews h2 {
   padding-bottom: 50px;
 }
@@ -688,11 +734,18 @@ footer h4 {
   ===================================================================== */
 
   
-  .faq h2 {
+  .faq .content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-flow: row wrap;
+  }
+  .faq h1 {
     width: 100%;
     font-size: 3em;
   }
-  .faq h4,
+  .faq h2,
   .faq p {
     font-size: 1.125em;
     line-height: 1;
