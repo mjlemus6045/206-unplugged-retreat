@@ -288,6 +288,13 @@ address {
     background-size: cover;
     background-position: center;
    }
+   .features i {
+     font-size: 3.75em;
+     margin-bottom: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
    .features h2 {
      margin-bottom: 60px;
    }
