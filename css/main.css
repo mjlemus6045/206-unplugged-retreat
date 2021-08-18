@@ -333,6 +333,20 @@ address {
      flex-flow: row wrap;
      background-color: #527158;
    }
+   .map figure {
+     position: relative;
+     padding-bottom: 125%;
+     width: 100%;
+     height: 0;
+     overflow: hidden;
+   }
+   .map iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+   }
    .contact-section {
      display: flex;
      justify-content: center;
@@ -360,7 +374,7 @@ address {
      display: flex;
      justify-content: center;
      align-items: center;
-     flex-flow: column wrap;
+     flex-flow: row wrap;
     }
     .faq h1 {
       margin-bottom: 40px;
@@ -483,10 +497,6 @@ address {
   }
   header figure {
     width: 31%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row;
   }
   header .content-wrapper {
     width: 100%;
@@ -498,13 +508,13 @@ address {
   header nav ul {
     justify-content: space-between;
   }
-  header nav ul li {
-    padding-right: 20px;
-  }
   .header-divider {
     display: none;
   }
   /***** Hero Area *****/
+  .hero area {
+    min-height: 600px;
+  }
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -546,16 +556,10 @@ address {
     display: flex;
     justify-content: space-between;
   }
-  .reviews figure {
-    width: 41%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
   .reviews h2 {
     width: 85%;
   }
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -647,13 +651,6 @@ address {
 header {
   padding: 15px 0;
   }
-  header figure {
-    width: 24%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
 .content-wrapper {
   max-width: 960px;
 }
@@ -671,7 +668,7 @@ p {
 
 /* Hero Area */
 .hero-area h1 {
-  width: 60%;
+  width: 80%;
   font-size: 3.75em;
 }
 
@@ -696,15 +693,6 @@ aside .content-wrapper .form {
 }
 
 /* Reviews */
-
-  .reviews figure {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: flex-start;
-    flex-flow: row wrap;
-  }
 .reviews h2 {
   padding-bottom: 50px;
 }
@@ -734,18 +722,11 @@ footer h4 {
   ===================================================================== */
 
   
-  .faq .content-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-start;
-    flex-flow: row wrap;
-  }
   .faq h1 {
     width: 100%;
     font-size: 3em;
   }
-  .faq h2,
+  .faq h3,
   .faq p {
     font-size: 1.125em;
     line-height: 1;
