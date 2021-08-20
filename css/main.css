@@ -98,16 +98,12 @@ body {
   text-align: left;
 	color: #e2e3ed;
 }
-img {
-  width: 100%;
-}
-figure {
-  margin: 0;
-}
  
 ul, 
 ol { 
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
  
 a {
@@ -119,6 +115,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
 	font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
  
 h3, 
@@ -132,6 +129,12 @@ h4 {
 p {
   line-height: 1.285;
   font-size: .875em;
+}
+img {
+  width: 100%;
+}
+figure {
+  margin: 0;
 }
  
 address {
@@ -218,6 +221,13 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  footer .social-icons p i {
+    font-size: 1.3125em;
   }
   footer .copyright {
     margin: 20px 0;
@@ -284,16 +294,8 @@ address {
     justify-content: center;
     flex-flow: row wrap;
     background-image: url('../img/rawpixel-800820-unsplash2.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-   }
-   .features i {
-     font-size: 3.75em;
-     margin-bottom: 40px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
    }
    .features h2 {
      margin-bottom: 60px;
@@ -306,7 +308,11 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+   }
+   .features i {
+     font-size: 3.75em;
+     margin-bottom: 40px;
    }
    .features p {
      text-align: center;
@@ -543,6 +549,7 @@ address {
   }
 
   /* Features */
+
   .features h2 {
     margin-bottom: 20px;
   }
@@ -555,6 +562,9 @@ address {
   }
   .features .features-items-description  {
     width: 62%;
+  }
+  .features i {
+    margin-bottom: 30px;
   }
 
   /* Reviews */
@@ -594,8 +604,9 @@ address {
     font-size: 1.5em;
     margin-bottom: 40px;
   }
-  .social-icons p {
-    padding-right: 20px;
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
   footer p {
     line-height: 1.285;
@@ -617,6 +628,9 @@ address {
   }
   .mission-content p {
     width: 45%;
+  }
+  .map figure {
+    padding-bottom: 45.5%;
   }
   .contact-section .content-wrapper h2 {
     width: 80%;
@@ -710,10 +724,14 @@ footer h4 {
   font-size: 1.875em;
 }
 
+
   
 /* =======================================================================
     About Page
   ===================================================================== */ 
+  .map figure {
+    padding-bottom: 37.5%;
+  }
   
   .mission h2,
   .contact-section .content-wrapper h2 {
