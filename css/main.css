@@ -339,6 +339,7 @@ address {
       About Page
       ===================================================================== */
 
+
    .mission {
      display: flex;
      justify-content: center;
@@ -389,14 +390,14 @@ address {
      align-items: center;
      flex-flow: row wrap;
     }
-    .faq h1 {
+    .faq h2 {
       margin-bottom: 40px;
       line-height: 1;
     }
     .faq-content {
       margin-bottom: 50px;
     }
-    .faq-content h3 {
+    .faq-content h4 {
       line-height: 1.333;
     }
 
@@ -560,6 +561,9 @@ address {
     flex-flow: column wrap;
     flex-basis: 50%;
   }
+  .features-items p {
+    width: 55%;
+  } 
   .features .features-items-description  {
     width: 62%;
   }
@@ -648,6 +652,9 @@ address {
       FAQ Page
       ===================================================================== */
 
+  header nav ul li a {
+    padding-right: 30px;
+  }
   .faq .content-wrapper {
       justify-content: space-between;
   }
@@ -747,11 +754,11 @@ footer h4 {
   ===================================================================== */
 
   
-  .faq h1 {
+  .faq h2 {
     width: 100%;
     font-size: 3em;
   }
-  .faq h3,
+  .faq h4,
   .faq p {
     font-size: 1.125em;
     line-height: 1;
