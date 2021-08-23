@@ -526,7 +526,7 @@ address {
     display: none;
   }
   /***** Hero Area *****/
-  .hero area {
+  .hero-area {
     min-height: 600px;
   }
   .hero-area h1 {
@@ -738,11 +738,10 @@ footer h4 {
   ===================================================================== */ 
   .map figure {
     padding-bottom: 37.5%;
-  }
-  
+  }  
   .mission h2,
   .contact-section .content-wrapper h2 {
-    width: 95%;
+    width: 100%;
     font-size: 3em;
   }
   .contact-content h4 {
